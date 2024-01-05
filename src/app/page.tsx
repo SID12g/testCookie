@@ -4,9 +4,9 @@ import ChangeMode from './changemode';
 export default function Home() {
   let result: any;
 
-  if (typeof cookies().get('mode') !== 'undefined') {
+
     result = cookies().get('mode');
-  }
+  
 
   console.log(result);
 
